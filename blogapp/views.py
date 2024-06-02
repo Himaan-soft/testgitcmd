@@ -16,7 +16,7 @@ def blog_list(request):
     return Response(serializers.data)
 
 def hello_world(request):
-    return HttpResponse('Hello World!!')
+    return HttpResponse('Hello World, Laxmi Yadav!!')
 
 def main_page(request):
     return render(request, 'main.html', {'name' : 'Laxmi Narayan yadav'})
