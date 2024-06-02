@@ -19,10 +19,6 @@ def hello_world(request):
     return HttpResponse('Hello World, Laxmi Yadav !!')
 
 def main_page(request):
-<<<<<<< HEAD
     return render(request, 'main.html', {'name' : 'Laxmi Narayan yadav'})
 
 
-=======
-    return render(request, 'main.html', {'name' : 'laxmi yadav'})
->>>>>>> 7fe7abd (views: updated HttpResponse)
