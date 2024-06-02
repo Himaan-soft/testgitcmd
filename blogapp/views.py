@@ -19,6 +19,6 @@ def hello_world(request):
     return HttpResponse('Hello World!!')
 
 def main_page(request):
-    return render(request, 'main.html', {'name' : 'laxmi yadav'})
+    return render(request, 'main.html', {'name' : 'Laxmi Narayan yadav'})
 
 
