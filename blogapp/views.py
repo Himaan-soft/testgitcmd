@@ -21,4 +21,3 @@ def hello_world(request):
 def main_page(request):
     return render(request, 'main.html', {'name' : 'Laxmi  Kumar yadav'})
 
-
